@@ -130,7 +130,16 @@ a.terms-services:hover {
 @media only screen and (max-width: 568px) {
 
     div.sign-up-content, div.sign-up-main-div  {
-        width: 92%;; 
+        width: 92%;
+    }
+
+    div.sign-up-content {
+        margin-top: 80px;
+    }
+
+    div.sign-up-main-div {
+        margin-top: 60px;
+        padding-bottom: 60px;
     }
 
     div.free-seven-days {
