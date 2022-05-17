@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background-image: url('../images/background.png') ;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    font-family:"Poppins";
+}
+
+section {
+    width: 100%;
+    height:100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center space-between;
+}
+
+div.sign-up-content, div.sign-up-main-div  {
+    width: 525px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size:50px;
+    line-height:55px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #fff;
+    font-weight: 500;
+    font-weight:16px;
+    line-height:26px;
+}
+
+div.free-seven-days {
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #5E54A4;
+    position: relative;
+    margin-bottom: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+div.free-seven-days > p {
+    font-weight: 400;
+    margin: 0 66px;
+}
+
+div.form-div {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+form input {
+    padding: 15px;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #3D3B48;
+}
+
+form input:active {
+    border: 1px solid #5E54A4;
+}
+
+button.btn {
+    padding: 17px 44px;
+    background-color: #38CC8B;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 1s ease-out;
+    cursor:pointer;
+}
+
+button.btn:hover {
+    background-color: #77E2B3;
+}
+
+div.form-div  p{
+    color: #000;
+    font-size: 11px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 700;
+}
+
+a.terms-services {
+    text-decoration: none;
+    color: #FF7979;
+}
+
+a.terms-services:hover {
+    text-decoration:underline;
+}
+
+
+@media only screen and (max-width: 568px) {
+
+    div.sign-up-content, div.sign-up-main-div  {
+        width: 92%;; 
+    }
+
+    div.free-seven-days {
+        height: 80px;
+    }
+    
+    div.form-div  p{
+        font-weight: 500;
+    }
+    
+}
