@@ -6,7 +6,6 @@
 
 body {
     background-image: url('../images/background.png') ;
-    /* background-repeat: no-repeat; */
     background-size: cover;
     font-family:"Poppins";
 }
@@ -19,7 +18,7 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center space-between;
+    justify-content: space-between;
 }
 
 div.sign-up-content, div.sign-up-main-div  {
