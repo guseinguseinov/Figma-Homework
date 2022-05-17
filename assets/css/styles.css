@@ -127,7 +127,7 @@ a.terms-services:hover {
 }
 
 
-@media only screen and (max-width: 568px) {
+@media only screen and (max-width: 990px) {
 
     div.sign-up-content, div.sign-up-main-div  {
         width: 92%;
@@ -135,6 +135,7 @@ a.terms-services:hover {
 
     div.sign-up-content {
         margin-top: 80px;
+        text-align: center;
     }
 
     div.sign-up-main-div {
